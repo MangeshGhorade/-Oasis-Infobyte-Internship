@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #4666ab;
+    text-align: center;
+   
+}
+h1{
+    font-family: "Poppins", sans-serif;
+    color: yellow;
+}
+.outer{
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px black;
+    border: 2px solid black;
+}
+#inp{
+    height: 75px;
+    width: 355px;
+    background-color: white;
+    position: relative;
+    padding-right: 10px;
+    top:20px;
+    text-align: right;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    border: 1px solid black;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 45px;
+}
+.btns div{
+    height: 55px;
+    width: 55px;
+    background-color: #c8d7f9;
+    margin: 8px 6px;
+    border-radius: 5px;
+    line-height: 55px;
+    box-shadow: 2px 2px 2px black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#entr{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    background-color: greenyellow;
+    width: 210px;
+}
+#clear{
+    background-color: rgb(247, 115, 115);
+}
+#dot{
+    font-size: 50px;
+}
+#l,#r{
+    font-size: 30px;
+}
+#percent,#sq,#plus,#minus,#x,#divide,#l,#r,#rem,#del,#dot{
+    background-color: #6e8ccd;
+}
